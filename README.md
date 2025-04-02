@@ -94,13 +94,24 @@ Parameters:
 
 ## Environment Setup
 
-1. Make sure you have proper Azure credentials configured. The server uses DefaultAzureCredential which supports:
+1. First, make sure you're logged in to Azure CLI by running:
+   ```bash
+   az login
+   ```
+   This step is crucial for local development as the DefaultAzureCredential will automatically use your Azure CLI credentials.
+
+2. Set up your environment variables:
+   - Copy `.env.example` to `.env`
+   - Update `AZURE_SUBSCRIPTION_ID` in `.env` with your actual subscription ID
+   - Other variables (`AZURE_TENANT_ID`, `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`) are optional when using Azure CLI authentication
+
+3. Make sure you have proper Azure credentials configured. The server uses DefaultAzureCredential which supports:
    - Azure CLI
    - Managed Identity
    - Visual Studio Code credentials
    - Environment variables
 
-2. If using environment variables, set up:
+4. If using environment variables, set up:
    - AZURE_SUBSCRIPTION_ID
    - AZURE_TENANT_ID
    - AZURE_CLIENT_ID
