@@ -1,6 +1,9 @@
 # Demo
 ![MCP Server Demo](./assets/mcp%20server.gif)
 
+# Flow
+![Request Flow](./assets/Flow.png)
+
 
 # Azure Resource Graph MCP Server
 
