@@ -4,7 +4,8 @@
     "azure-resource-graph-mcp-server": "./build/index.js"
   },
   "files": [
-    "build"
+    "build",
+    ".env"
   ],
   "name": "azure-resource-graph-mcp-server",
   "version": "1.0.0",

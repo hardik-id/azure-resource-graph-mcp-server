@@ -1,3 +1,7 @@
+# Demo
+![MCP Server Demo](./assets/mcp%20server.gif)
+
+
 # Azure Resource Graph MCP Server
 
 This is a Model Context Protocol (MCP) server that provides access to Azure Resource Graph queries. It allows you to retrieve information about Azure resources across your subscriptions using Resource Graph queries.
@@ -37,7 +41,10 @@ npm run build
       "command": "node",
       "args": [
         "C:\\YOUR_WORKSPACE\\azure-resource-graph-mcp-server\\build\\index.js"
-      ]
+      ],
+      "env": {
+        "SUBSCRIPTION_ID": "xxxxxx-xx-xx-xx-xxxxxx"
+      },
     }
   }
 }
@@ -67,7 +74,10 @@ npm run build
                 "command": "node",
                 "args": [
                     "C:\\YOUR_WORKSPACE\\azure-resource-graph-mcp-server\\build\\index.js"
-                ]
+                ],
+                "env": {
+                  "SUBSCRIPTION_ID": "xxxxxx-xx-xx-xx-xxxxxx"
+                },
             }
         }
     }

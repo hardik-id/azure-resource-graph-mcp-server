@@ -11,6 +11,7 @@ import { config } from "dotenv";
 config();
 
 const subscriptionId = process.env.SUBSCRIPTION_ID || "";
+console.error("Using subscription ID:", subscriptionId);
 
 // Create an MCP server
 const server = new McpServer({
@@ -33,7 +34,7 @@ try {
 
 try {
   const operations2 = await rgClient.resources({
-    subscriptions: [subscriptionId],
+    subscriptions: [process.env.SUBSCRIPTION_ID || ""],
     query: "Resources | project id, name, type, location",
   });
   console.log("Operations:", JSON.stringify(operations2, null, 2));
@@ -51,7 +52,7 @@ server.tool(
     subscriptionId: z
       .string()
       .describe("Azure subscription ID")
-      .default(subscriptionId),
+      .default(process.env.SUBSCRIPTION_ID || ""),
     query: z
       .string()
       .optional()
