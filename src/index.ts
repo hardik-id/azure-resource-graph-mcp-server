@@ -32,22 +32,11 @@ try {
   process.exit(1);
 }
 
-try {
-  const operations2 = await rgClient.resources({
-    subscriptions: [process.env.SUBSCRIPTION_ID || ""],
-    query: "Resources | project id, name, type, location",
-  });
-  console.log("Operations:", JSON.stringify(operations2, null, 2));
-} catch (err) {
-  console.log("An error occurred:");
-  console.error(err);
-}
-
 
 // Add a tool to query resources
 server.tool(
   "query-resources",
-  "Retrieves resources and their details from Azure Resource Graph",
+  "Retrieves resources and their details from Azure Resource Graph. Use this tool to search, filter, and analyze Azure resources across subscriptions. It supports Kusto Query Language (KQL) for complex queries to find resources by type, location, tags, or properties. Useful for infrastructure auditing, resource inventory, compliance checking, and understanding your Azure environment's current state.",
   {
     subscriptionId: z
       .string()
