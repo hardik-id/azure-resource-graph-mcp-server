@@ -8,6 +8,9 @@
 # Azure Resource Graph MCP Server
 
 This is a Model Context Protocol (MCP) server that provides access to Azure Resource Graph queries. It allows you to retrieve information about Azure resources across your subscriptions using Resource Graph queries.
+<a href="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server/badge" />
+</a>
 
 ## Features
 
@@ -148,9 +151,3 @@ To work on this project:
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-
-
-
-<a href="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server/badge" />
-</a>
