@@ -146,3 +146,11 @@ To work on this project:
 3. Test your changes by running the server
 
 ## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+
+
+
+<a href="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server/badge" />
+</a>
