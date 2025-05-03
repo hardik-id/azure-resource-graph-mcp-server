@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hardik-id-azure-resource-graph-mcp-server-badge.png)](https://mseep.ai/app/hardik-id-azure-resource-graph-mcp-server)
+
 # Demo
 ![MCP Server Demo](./assets/mcp%20server.gif)
 
