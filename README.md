@@ -12,6 +12,8 @@ This is a Model Context Protocol (MCP) server that provides access to Azure Reso
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server/badge" />
 </a>
 
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hardik-id-azure-resource-graph-mcp-server-badge.png)](https://mseep.ai/app/hardik-id-azure-resource-graph-mcp-server)
+
 ## Features
 
 - Query Azure resources using Resource Graph queries
