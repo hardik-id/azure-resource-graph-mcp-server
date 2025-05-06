@@ -1,5 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hardik-id-azure-resource-graph-mcp-server-badge.png)](https://mseep.ai/app/hardik-id-azure-resource-graph-mcp-server)
-
 # Demo
 ![MCP Server Demo](./assets/mcp%20server.gif)
 
@@ -13,6 +11,8 @@ This is a Model Context Protocol (MCP) server that provides access to Azure Reso
 <a href="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@hardik-id/azure-resource-graph-mcp-server/badge" />
 </a>
+
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hardik-id-azure-resource-graph-mcp-server-badge.png)](https://mseep.ai/app/hardik-id-azure-resource-graph-mcp-server)
 
 ## Features
 
