@@ -14,6 +14,8 @@ This is a Model Context Protocol (MCP) server that provides access to Azure Reso
 
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hardik-id-azure-resource-graph-mcp-server-badge.png)](https://mseep.ai/app/hardik-id-azure-resource-graph-mcp-server)
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/hardik-id/azure-resource-graph-mcp-server)](https://archestra.ai/mcp-catalog/hardik-id__azure-resource-graph-mcp-server)
+
 ## Features
 
 - Query Azure resources using Resource Graph queries
