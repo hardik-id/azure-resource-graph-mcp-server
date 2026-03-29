@@ -14,6 +14,10 @@ This is a Model Context Protocol (MCP) server that provides access to Azure Reso
 
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hardik-id-azure-resource-graph-mcp-server-badge.png)](https://mseep.ai/app/hardik-id-azure-resource-graph-mcp-server)
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/hardik-id-azure-resource-graph-mcp-server).
+
 ## Features
 
 - Query Azure resources using Resource Graph queries
